@@ -1,21 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  font-family: 'Roboto', sans-serif;
 }
 
 .App-header {
+  /* background-color: rgb(237,64,60); */
   background-color: #282c34;
-  min-height: 100vh;
+  max-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,15 +17,35 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.infos {
+  height: 85vh;
+  /* background-color: #282c34; */
+  background-image: url(https://res.cloudinary.com/dxatyucj2/image/upload/v1607137755/MercatoBixiga/129262528_3353094161479193_6948237548704752242_n_k0qq6l.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(0.5);
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sqre-background {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100vh;
+  width: 100vw;
+}
+
+.sqre-background p {
+  margin: 0;
+  font-size: 1.5rem;
+  /* font-weight: bold; */
+  width: 70vw;
+}
+
+.links {
+  text-decoration: none;
+  color: white;
+}
+
+.links:hover {
+  color: rgb(237,64,60);
 }
