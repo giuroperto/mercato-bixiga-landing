@@ -7,8 +7,9 @@
 
 .App-header {
   /* background-color: rgb(237,64,60); */
-  background-color: #282c34;
-  max-height: 10vh;
+  /* background-color: #282c34; */
+  background-color: rgb(0,172,172);
+  height: 8vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,10 +18,14 @@
   color: white;
 }
 
+.App-header h1 {
+  margin: 0;
+}
+
 .infos {
-  height: 85vh;
+  height: 87vh;
   /* background-color: #282c34; */
-  background-image: url(https://res.cloudinary.com/dxatyucj2/image/upload/v1607137755/MercatoBixiga/129262528_3353094161479193_6948237548704752242_n_k0qq6l.jpg);
+  background-image: url(https://res.cloudinary.com/dxatyucj2/image/upload/v1607137754/MercatoBixiga/130056184_305777940641365_835032242645707959_n_vjeknh.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -29,16 +34,37 @@
 }
 
 .sqre-background {
-  background-color: rgba(0, 0, 0, 0.4);
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
   width: 100vw;
 }
 
-.sqre-background p {
+.text-infos {
+  width: 90vw;
+  padding-top: 13vh;
+}
+
+.text-infos p {
+  font-size: 1.2rem;
+}
+
+.title-infos {
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  width: 80vw;
+}
+
+.contact-info {
+  padding-top: 4vh;
+}
+
+.contact-info span {
+  padding-left: 5vw;
   /* font-weight: bold; */
-  width: 70vw;
 }
 
 .links {
@@ -48,4 +74,84 @@
 
 .links:hover {
   color: rgb(237,64,60);
+}
+
+.insta-info, .whatsapp-info {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2vh;
+}
+
+.insta-icon, .whats-icon {
+  font-size: 1.5rem;
+}
+
+@media only screen and (min-width: 400px) {
+  .text-infos p {
+    font-size: 1.5rem;
+  }
+  
+  .title-infos {
+    font-size: 2.3rem;
+  }
+
+  .insta-info, .whatsapp-info, .insta-icon, .whats-icon {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .text-infos p {
+    font-size: 2rem;
+  }
+  
+  .title-infos {
+    font-size: 3rem;
+  }
+
+  .insta-info, .whatsapp-info, .insta-icon, .whats-icon {
+    font-size: 2.5rem;
+  }
+
+  .contact-info {
+    padding-top: 10vh;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .text-infos p {
+    font-size: 3rem;
+  }
+  
+  .title-infos {
+    font-size: 4.8rem;
+  }
+
+  .insta-info, .whatsapp-info, .insta-icon, .whats-icon {
+    font-size: 3.5rem;
+  }
+
+  .contact-info {
+    padding-top: 3vh;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-height: 800px) {
+  .text-infos p {
+    font-size: 2rem;
+  }
+  
+  .title-infos {
+    font-size: 3.5rem;
+  }
+
+  .insta-info, .whatsapp-info, .insta-icon, .whats-icon {
+    font-size: 2.8rem;
+  }
+
+  .contact-info {
+    padding-top: 3vh;
+  }
 }

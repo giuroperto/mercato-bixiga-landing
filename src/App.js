@@ -12,18 +12,21 @@ const App = () => {
       </header>
       <div className="infos">
         <div className="sqre-background">
-          <p>Em breve, novidades por aqui. Enquanto isso, nos acompanhe em nosso Instagram, ou entre em contato pelo WhatsApp.</p>
+          <div className="text-infos">
+            <span className="title-infos">Em breve, novidades por aqui.</span>
+            <p>Enquanto isso, nos acompanhe em nosso Instagram, ou entre em contato pelo WhatsApp.</p>
+          </div>
           <div className="contact-info">
             <div className="insta-info">
-              <GrInstagram />
-              <a href="https://www.instagram.com/mercatobixiga/" target="_blank" className="links">
+              <GrInstagram className="insta-icon" />
+              <a href="https://www.instagram.com/mercatobixiga/" target="_blank" rel="noopener noreferrer" className="links">
                 <span>mercatobixiga</span>
               </a>
             </div>
             <div className="whatsapp-info">
-              <RiWhatsappLine />
-              <a href="" className="links">
-                <span>(11)xxxx-xxxx</span>
+              <RiWhatsappLine className="whats-icon" />
+              <a href="https://wa.me/5511910505047?text=Olá!%20Estava%20no%20site%20de%20vocês%20e%20gostaria%20de%20uma%20informação..." className="links" target="_blank" rel="noopener noreferrer">
+                <span>(11) 91050-5047</span>
               </a>
             </div>
           </div>

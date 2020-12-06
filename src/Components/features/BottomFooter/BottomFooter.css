@@ -1,8 +1,19 @@
 .bottom-footer {
   height: 5vh;
-  background-color: rgb(0,172,172);
+  background-color: #282c34;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgb(0,172,172); */
 }
 
 .bottom-footer p {
   margin: 0;
+  
+}
+
+.heart-icon {
+  position: relative;
+  bottom: -0.5vh;
 }
