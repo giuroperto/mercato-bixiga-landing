@@ -1,5 +1,6 @@
 {
   "name": "landing-page",
+  "homepage": "http://www.bixiga.com.br/links",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

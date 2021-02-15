@@ -12,15 +12,24 @@ const Menu = () => {
         {/* <h1>MERCATO BIXIGA</h1> */}
         <img src="https://res.cloudinary.com/dpvoeecza/image/upload/v1610039720/Mercato/Logo_Mercato_Bixiga_PNG_Transparente_tmct3q.png" alt="Logo Mercato Roperto" className="logo"/>
         <div className="menu-control">
-          <Link to={ROUTES.HOME} className="links">
+          {/* <Link to={ROUTES.HOME} className="links">
             <div className="menu-btn">
               <FaGlobeAmericas />
               <span>
                 SITE (em construção)
               </span>
             </div>
-          </Link>
-          
+          </Link> */}
+
+          <a href="https://www.bixiga.com.br/bixiga" className="links">
+            <div className="menu-btn">
+              <FaGlobeAmericas />
+              <span>
+                SITE (em construção)
+              </span>
+            </div>
+          </a>
+
           <a href="https://www.instagram.com/mercatobixiga/" className="links">
             <div className="menu-btn">
               <FaInstagram />
@@ -29,6 +38,7 @@ const Menu = () => {
               </span>
             </div>
           </a>
+
           <a href="https://www.ifood.com.br/delivery/sao-paulo-sp/mercato-bixiga---grupo-roperto-bela-vista" className="links">
             <div className="menu-btn">
               <SiIfood />
@@ -37,6 +47,7 @@ const Menu = () => {
               </span>
             </div>
           </a>
+
           <a href="https://wa.me/5511910505047?text=Olá!%20Estava%20no%20site%20de%20vocês%20e%20gostaria%20de%20uma%20informação..." className="links" target="_blank" rel="noopener noreferrer">
             <div className="menu-btn">
               <FaWhatsapp />

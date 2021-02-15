@@ -7,7 +7,7 @@ import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
+    <Router basename="/links">
       <App />
     </Router>
   </React.StrictMode>,
