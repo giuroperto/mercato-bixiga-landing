@@ -21,7 +21,7 @@ const Menu = () => {
             </div>
           </Link> */}
 
-          <a href="https://www.bixiga.com.br/bixiga" className="links">
+          <a href="https://www.bixiga.com.br/" className="links">
             <div className="menu-btn">
               <FaGlobeAmericas />
               <span>
