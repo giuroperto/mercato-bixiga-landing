@@ -43,12 +43,16 @@
 }
 
 .menu-btn:hover {
-  background-color: darkcyan;
+  background-color: crimson;
 }
 
 .menu-btn span {
   font-size: 0.7rem;
   margin-left: 20px;
+}
+
+.links:hover {
+  color: white;
 }
 
 @media screen and (max-width: 400px) {
