@@ -1,8 +1,8 @@
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { FaInstagram, FaWhatsapp, FaGlobeAmericas } from 'react-icons/fa';
 import { SiIfood } from 'react-icons/si';
 
-import ROUTES from '../../../constants/routes';
+// import ROUTES from '../../../constants/routes';
 import './Menu.css';
 
 const Menu = () => {
